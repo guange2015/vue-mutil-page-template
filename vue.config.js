@@ -47,7 +47,6 @@ module.exports = {
     },
 
     chainWebpack: config => {
-        console.log(config);
         config.plugin('html-admin')
             .tap(args => {
                 args[0].title = '笑立沙城';
